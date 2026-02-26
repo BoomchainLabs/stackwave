@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
+import { Skeleton } from "@/components/ui/skeleton";
 import { Coins, TrendingUp, Lock, ArrowRight, Loader2, ShieldCheck } from "lucide-react";
 
 export default function Staking() {

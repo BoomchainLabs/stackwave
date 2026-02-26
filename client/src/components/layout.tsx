@@ -6,7 +6,8 @@ import {
   Vote, 
   Coins, 
   Menu,
-  Waves
+  Waves,
+  Wallet
 } from "lucide-react";
 import {
   Sidebar,
