@@ -1,0 +1,312 @@
+STACKWAVE — AI-Powered Web3 Governance & Analytics Platform
+
+Build a production-ready, investor-grade Web3 startup called:
+
+🟦 StackWave
+
+Tagline: The Operating System for Tokenized Economies
+
+⸻
+
+🎯 OBJECTIVE
+
+Create a full-stack, Kubernetes-ready, AWS-scalable Web3 SaaS platform with:
+
+• ERC-20 token (SWAVE)
+• Token staking rewards
+• DAO governance voting
+• Token gating
+• On-chain payments
+• SIWE (Sign-In With Ethereum)
+• Zero-knowledge login option
+• AI blockchain analytics engine
+• Admin dashboard
+• Real-time WebSocket events
+• Security audit checklist
+• Whitepaper
+• Investor pitch deck content
+• Tokenomics model
+• Global expansion strategy
+
+Everything must compile and run in Docker locally and deploy to AWS EKS.
+
+⸻
+
+🏗 ARCHITECTURE REQUIREMENTS
+
+Use microservices architecture.
+
+⸻
+
+1️⃣ FRONTEND
+
+Stack:
+	•	Next.js 14 (App Router)
+	•	TypeScript
+	•	TailwindCSS
+	•	Wagmi + Viem
+	•	WalletConnect + MetaMask
+	•	Zustand
+	•	WebSocket client
+	•	Charts (Recharts)
+
+Features:
+	•	Wallet connect
+	•	SIWE login
+	•	Token gated access
+	•	DAO proposal voting UI
+	•	Staking dashboard
+	•	AI analytics dashboard
+	•	Admin dashboard
+	•	Payment confirmation UI
+	•	Tokenomics visual chart
+
+⸻
+
+2️⃣ BACKEND (CORE API)
+
+Stack:
+	•	Node.js 20
+	•	Express or Fastify
+	•	TypeScript
+	•	Prisma ORM
+	•	PostgreSQL
+	•	Redis
+	•	Socket.io
+	•	Zod validation
+	•	JWT auth
+
+Features:
+	•	SIWE verification endpoint
+	•	Nonce generation
+	•	Token gating middleware
+	•	DAO proposal CRUD
+	•	Voting logic
+	•	Staking reward calculation
+	•	On-chain payment verification
+	•	Admin controls
+	•	WebSocket event broadcasting
+	•	Rate limiting + Helmet + CORS
+	•	Audit logging
+
+⸻
+
+3️⃣ AI MICRO SERVICE
+
+Stack:
+	•	Python
+	•	FastAPI
+	•	scikit-learn
+	•	pandas
+	•	web3.py
+
+Endpoints:
+	•	/analyze-wallet
+	•	/detect-anomaly
+	•	/predict-token-trend
+
+Return:
+	•	Risk score
+	•	Wallet clustering group
+	•	Governance engagement score
+	•	Token velocity metrics
+
+⸻
+
+4️⃣ SMART CONTRACTS (Solidity)
+
+Write production-ready contracts:
+
+SWAVE ERC-20
+	•	1,000,000,000 supply
+	•	18 decimals
+	•	Mintable (owner only)
+
+Staking Contract
+	•	Deposit SWAVE
+	•	Variable APY
+	•	Claim rewards
+	•	Withdraw
+
+DAO Governance Contract
+	•	Create proposal
+	•	Vote (token-weighted)
+	•	Timelock
+	•	Execute proposal
+
+Token Gating Contract
+	•	Minimum balance required
+	•	Backend verification compatible
+
+Treasury Multisig Stub
+
+Include basic security protections.
+
+⸻
+
+🔐 AUTHENTICATION
+
+Implement:
+	•	SIWE flow
+	•	JWT session
+	•	Nonce storage
+	•	Zero-knowledge login placeholder module
+	•	Role-based admin access
+
+⸻
+
+💰 TOKENOMICS
+
+Total Supply: 1,000,000,000 SWAVE
+
+Allocation:
+	•	30% Ecosystem
+	•	20% Team (4-year vesting contract)
+	•	20% DAO Treasury
+	•	15% Investors
+	•	10% Staking rewards
+	•	5% Liquidity
+
+Generate:
+	•	Tokenomics chart component
+	•	Vesting smart contract
+
+⸻
+
+📡 REAL-TIME EVENTS
+
+Emit WebSocket updates for:
+	•	Proposal created
+	•	Vote cast
+	•	Stake deposited
+	•	Payment confirmed
+	•	AI risk alert
+
+Use Redis Pub/Sub.
+
+⸻
+
+☁️ DEPLOYMENT
+
+Generate:
+
+Docker:
+	•	Dockerfile for frontend
+	•	Dockerfile for backend
+	•	Dockerfile for AI service
+	•	docker-compose.yml
+
+Kubernetes:
+	•	Deployments
+	•	Services
+	•	Ingress
+	•	HPA
+	•	Secrets
+	•	ConfigMaps
+
+AWS Infrastructure Plan:
+	•	EKS
+	•	RDS (PostgreSQL)
+	•	ElastiCache (Redis)
+	•	ALB
+	•	CloudFront
+	•	Route53
+	•	IAM roles
+	•	Auto scaling
+
+⸻
+
+🛡 SECURITY
+
+Generate:
+
+SECURITY_AUDIT_CHECKLIST.md including:
+	•	Smart contract audit points
+	•	Backend security checks
+	•	Rate limiting
+	•	Reentrancy checks
+	•	Multisig treasury controls
+	•	Dependency scanning
+	•	CI/CD pipeline security
+
+⸻
+
+📄 WHITEPAPER
+
+Generate WHITEPAPER.md including:
+	1.	Vision
+	2.	Market problem
+	3.	Technical architecture
+	4.	AI analytics advantage
+	5.	DAO governance model
+	6.	Token utility
+	7.	Tokenomics
+	8.	Roadmap (3 phases)
+	9.	Revenue model
+	10.	Security framework
+	11.	Global expansion strategy
+
+⸻
+
+🔥 INVESTOR PITCH CONTENT
+
+Generate INVESTOR_DECK.md with:
+	•	Problem
+	•	Solution
+	•	Market size
+	•	Business model
+	•	Competitive landscape
+	•	AI moat
+	•	Financial projections
+	•	Fundraising roadmap
+	•	Use of funds
+	•	Exit strategy
+
+⸻
+
+💰 VALUATION MODEL
+
+Include:
+	•	SaaS multiple projection
+	•	Token network valuation logic
+	•	5-year revenue forecast
+	•	Burn rate estimate
+	•	Suggested seed valuation
+
+⸻
+
+🌍 GLOBAL EXPANSION STRATEGY
+
+Include:
+	•	Multi-chain deployment plan
+	•	Regional scaling
+	•	Compliance awareness strategy
+	•	DAO localization
+	•	Institutional roadmap
+
+⸻
+
+📁 FINAL OUTPUT STRUCTURE
+
+Generate complete monorepo:
+
+stackwave/
+├── frontend/
+├── backend/
+├── ai-service/
+├── contracts/
+├── k8s/
+├── docs/
+│    ├── WHITEPAPER.md
+│    ├── INVESTOR_DECK.md
+│    ├── SECURITY_AUDIT_CHECKLIST.md
+│    └── TOKENOMICS.md
+├── docker-compose.yml
+├── README.md
+
+Everything must:
+	•	Compile
+	•	Run with docker-compose up
+	•	Be production structured
+	•	Be AWS deployable
+	•	Follow best practices
